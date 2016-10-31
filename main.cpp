@@ -4,23 +4,28 @@ using namespace std;
 
 int main()
 {
-    cout<<"size";
+   
     int n,key;
     bool flag=false;
+    
+    cout<<"Enter size of array: ";
     cin>>n;
-    int arr[n];
-    3
+    
+    int* arr=new int[n];
+    
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    1
+    
     cin>>key;
+    
     for(int i=0;i<n;i++){
         if(key==arr[i]){
-            cout<<key<<" found at Position "<<i+1<<endl;
+            cout<<key<<" found at position "<<i+1<<endl;
             flag=true;
         }
     }
+    
     if(!flag)
         cout<<key<<" not found.";
     return 0;
