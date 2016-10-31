@@ -13,7 +13,7 @@ int main()
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    1
+    cout<<"enter elements to be searched :- ";
     cin>>key;
     for(int i=0;i<n;i++){
         if(key==arr[i]){
