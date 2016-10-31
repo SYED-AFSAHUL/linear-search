@@ -9,7 +9,7 @@ int main()
     bool flag=false;
     cin>>n;
     int arr[n];
-    3
+    cout<<"enter "<<n<<" elements\n";
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
