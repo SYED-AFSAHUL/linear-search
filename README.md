@@ -1,3 +1,3 @@
 # linear-search
 
-add c++ code 
+add c++ code to make it work
