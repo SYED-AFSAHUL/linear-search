@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-    cout<<"size";
     int n,key;
     bool flag=false;
+    cout<<"Input size -: ";
     cin>>n;
     int arr[n];
     cout<<"enter "<<n<<" elements\n";
